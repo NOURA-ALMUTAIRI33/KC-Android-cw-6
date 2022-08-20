@@ -4,33 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9CFAFA"
     tools:context=".SplashScreen">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/Test"
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="3dp"
-
-        android:layout_marginBottom="101dp"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/student" />
-
-    <TextView
-        android:id="@+id/textView"
-
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_below="@+id/Test"
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="228dp"
+        android:layout_height="202dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="57dp"
-        android:layout_marginBottom="36dp"
-        android:text="نظام متابعة الطلبة"
-        android:textSize="30sp" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="453dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/Tv1"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="338dp"
+        android:text="أسم الطالب :"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Tv2"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="264dp"
+        android:text="عمر الطالب :"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Tv3"
+        android:layout_width="158dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="344dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Tv4"
+        android:layout_width="160dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="267dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="157dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="106dp"
+        android:text="Button" />
 </RelativeLayout>
